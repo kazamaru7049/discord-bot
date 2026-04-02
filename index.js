@@ -11,7 +11,7 @@ GatewayIntentBits.MessageContent
 ]
 });
 
-const TOKEN = "MTQ4ODg5OTY3ODgyNDAzODYyMA.Ge5ied.efy_4_0yPe6je-0LdM5R8S5iJmZSmPkcGumGZY";
+const TOKEN = process.env.TOKEN;
 const GAS_URL = "https://script.google.com/macros/s/AKfycby7gWGxypngMUUGyTAjlbVnsSK2L4DCm87sP_MntNgD83oyGcZdozF0G4JGHURsCitA/exec";
 
 // 通話参加検知
