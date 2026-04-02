@@ -12,7 +12,7 @@ GatewayIntentBits.MessageContent
 });
 
 const TOKEN = process.env.TOKEN;
-const GAS_URL = "https://script.google.com/macros/s/AKfycby7gWGxypngMUUGyTAjlbVnsSK2L4DCm87sP_MntNgD83oyGcZdozF0G4JGHURsCitA/exec";
+const GAS_URL = process.env.GAS_URL;
 
 // 通話参加検知
 client.on('voiceStateUpdate', async (oldState, newState) => {
