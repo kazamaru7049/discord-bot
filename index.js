@@ -26,6 +26,7 @@ await sendToSheet(name);
 });
 
 // 発言検知
+/*
 client.on('messageCreate', async (message) => {
 if (message.author.bot) return;
 
@@ -35,6 +36,7 @@ console.log(`${name} が発言`);
 
 await sendToSheet(name);
 });
+*/
 
 // GAS送信処理
 async function sendToSheet(name) {
